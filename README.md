@@ -21,4 +21,3 @@ This Magma script computes rational representations of a finite `p`-group using 
 - **`AllInequivalentRepresentations(G, subs)`**: Computes all inequivalent irreducible rational representations of `G` using its character table and `subs`, a collection of subgroups of `G` that serve as one component of the required pairs for their construction.  
 
 - **`IsRequiredPair(G, H, char)`**: Checks whether `H` is a component of a required pair for constructing an irreducible rational matrix representation whose character value equals the Schur index times the sum of the Galois conjugates of `char` over `Q`.  
-
