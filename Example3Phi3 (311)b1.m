@@ -27,7 +27,10 @@
  D := DerivedGroup(G);
  H := Centraliser(G, D);
 
- S := [ H];
+ // //the second is defined as per Theorem 19 (3) (b)
+ H_1 := sub< G | phi(a), phi(a1^p), phi(a2)>;
+
+ S := [ H, H_1];
 
 
  G, delta := MyPermRep(G);
@@ -54,3 +57,6 @@ end for;
 ConstructRep(G, CG[5]);
 
 RationalRepresentation(G, subs[1], CG[45]);
+
+RationalRepresentation(G, subs[2], CG[31]);
+
