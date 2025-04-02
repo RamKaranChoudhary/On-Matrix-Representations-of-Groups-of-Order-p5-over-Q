@@ -26,4 +26,4 @@ This Magma script computes rational representations of a finite `p`-group using 
 
 ### **`Examples`** 
 
-- To run examples, first load the script **`RationalRepsReqPairs.m`** in Magma and then execute the desired functions.
+-  To run examples, first load the script **`RationalRepsReqPairs.m`** in Magma and then execute the desired functions.
